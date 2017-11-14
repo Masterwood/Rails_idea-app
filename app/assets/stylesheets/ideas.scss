@@ -11,10 +11,17 @@
 .container input[type="submit"] {
    height: 30px;
    font-size: 13px;
-   background-color: #f55e55;
+   background-color: #11b544;
    border: none;
    color: #fff;
    margin-top: 20px;
    border-radius: 10px;
    width: 100px;
  }
+
+.field {
+  margin-bottom: 20px;
+}
+.actions {
+  margin-bottom: 20px;
+}
