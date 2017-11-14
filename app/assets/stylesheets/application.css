@@ -35,6 +35,27 @@
    background-color: transparent;
    text-decoration: none;
  }
+ .navbar-default .navbar-link {
+   color: #fff;
+ }
+ .navbar-default .navbar-link:hover {
+   color: #4ecbff;
+ }
+ .navbar-default .navbar-text {
+   color: #fff;
+ }
+ .navbar-default .navbar-nav>li>a {
+   color: #fff;
+ }
+ .navbar-default .navbar-brand {
+   color: #fff;
+ }
+ .navbar-default .navbar-nav>li:hover {
+   background-image: linear-gradient(to bottom,#ebebeb 0,#f3f3f3 100%);
+ }
+ .navbar>.container .navbar-brand:hover {
+   background-image: linear-gradient(to bottom,#ebebeb 0,#f3f3f3 100%);
+ }
 
 footer {
   background-color: #ebebeb;
