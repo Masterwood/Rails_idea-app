@@ -18,9 +18,9 @@
         <td><%= comment.user_name %></td>
         <td><%= comment.body %></td>
         <td><%= comment.idea_id %></td>
-        <td><%= link_to 'Show', comment %></td>
-        <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-        <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to '表示', comment %></td>
+        <td><%= link_to '編集', edit_comment_path(comment) %></td>
+        <td><%= link_to '削除', comment, method: :delete, data: { confirm: '本当に削除しますか?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Comment', new_comment_path %>
+<%= link_to '新規コメント', new_comment_path %>
